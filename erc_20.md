@@ -4,7 +4,7 @@
 
 - **Protocol Name:** Centrifuge (CFG)
 
-- **Category:** DeFi
+- **Category:** Real-World Asset (RWA) tokenization
 - **Smart Contract:** ERC20 Token Contract
 
 ## Function Analysis
@@ -75,4 +75,4 @@ By using `abi.encode` and `abi.encodePacked`, the function ensures that the mess
 - The use of `ecrecover` to validate the signature guarantees that only the legitimate owner can authorize approvals.
 
 ### Conclusion
-The `permit` function in the Cent protocol's ERC20 token contract leverages `abi.encode` and `abi.encodePacked` to create a secure and efficient method for off-chain token approvals. This function enhances the flexibility and usability of the DeFi protocol by allowing gasless approvals while ensuring the integrity and security of the approval process.
+The `permit` function in the Cent protocol's ERC20 token contract leverages `abi.encode` and `abi.encodePacked` to create a secure and efficient method for off-chain token approvals.
